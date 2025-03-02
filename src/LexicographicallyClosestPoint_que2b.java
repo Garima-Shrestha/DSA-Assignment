@@ -52,14 +52,14 @@ public class LexicographicallyClosestPoint_que2b {
      * This is the main method to run the test and demonstrate the function.
      */
     public static void main(String[] args) {
-    // Define some new test input coordinates
-    int[] x_coords = {1, 3, 2, 5, 4};
-    int[] y_coords = {1, 2, 3, 4, 5};
-    
-    // Find the closest pair of points based on Manhattan distance
-    int[] closestPair = findClosestPair(x_coords, y_coords);
-    
-    // Print the result, which should return the indices of the closest pair
-    System.out.println(Arrays.toString(closestPair)); // The Output [1,2]
-}
+        // Define some new test input coordinates
+        int[] x_coords = {1, 3, 2, 5, 4};
+        int[] y_coords = {1, 2, 3, 4, 5};
+
+        // Find the closest pair of points based on Manhattan distance
+        int[] closestPair = findClosestPair(x_coords, y_coords);
+
+        // Print the result, which should return the indices of the closest pair
+        System.out.println(Arrays.toString(closestPair)); // The Output [1,2]
+    }
 }
